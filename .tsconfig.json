@@ -1,0 +1,28 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "ES6",
+            "DOM"
+        ],
+        "types": [
+            "reflect-metadata"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "baseUrl": "src/"
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended",
+    "exclude": "node_modules"
+}
