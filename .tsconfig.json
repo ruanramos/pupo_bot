@@ -19,7 +19,8 @@
         ],
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "baseUrl": "src/"
     },
     "$schema": "https://json.schemastore.org/tsconfig",
     "display": "Recommended",
